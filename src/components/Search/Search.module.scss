@@ -1,0 +1,40 @@
+.form{
+    align-items: center;
+}
+.searhBox{
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    // box-shadow:  6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    //             -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    margin-right: 20%;
+    margin-left: 26%;
+    border: 3px solid rgb(54, 221, 4);
+    
+}
+.input{
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #0b5ed7;
+    font-size:20px ;
+    width: 500px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: rgb(192, 190, 190);
+}
+.icon{
+    width: 50px;
+    cursor: pointer;
+    justify-items: center;
+    margin-left: 26px
+}
+.active input{
+    width: 500px;
+}
+@media (max-width: 576px){
+    .input{
+        width: 80%;
+    }
+}
